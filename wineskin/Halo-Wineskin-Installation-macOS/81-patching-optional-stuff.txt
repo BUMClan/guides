@@ -1,0 +1,71 @@
+
+
+Recommendations:
+==================
+
+For macOS with Wineskin, I suggest the latest Chimera-Patch and
+therefore not the Chimera-HAC2-Combo-Patch with an older Chimera
+version. Why? The Chimera-HAC2-Combo-Patch leads to a jerky image,
+no matter what Halo video settings you use. Furthermore, some other
+issues occur with that patching (e.g. crashes). But this might be 
+different for different systems. You can always create another
+Wineskin-Wrapper with a Halo installation that has different
+patching! An installation with the latest Chimera-Patch seems
+to be very stable.
+
+
+
+Possible Patches:
+==================
+
+- For example Chimera: https://github.com/SnowyMouse/chimera
+  NOTE: "chimera".ini has many many options you want to look at!
+  (FPS, default resolution settings, fonts, etc.),
+  Latest version (per August 14, 2023) in "99-patches" folder.
+
+
+- Recommended patch: Environmental sounds with FX:
+  DSOAL, see "91-patching-dsound-dll.txt" and files with prefix
+  "91-...". Working version in "99-patches" folder.
+
+
+- If you want Chimera and HAC2 work together, you need a specific
+  old chimera version and you cannot install the chimera version
+  above nor the latest! You have to use the file
+  "chimera+hac2-working-versions.zip" from the "99-patches" folder.
+  It is chimera version 600 ("chimera.dll") and a compatible 
+  HAC2 version ("loader.dll"). Unlike newer chimera versions,
+  both of these DLL-files go into the "controls"-folder in the
+  Halo base program folder!
+
+
+- HAC2 optics pack (compiled by BUM N01): "99-patches/packs.zip"
+  This works only if you use HAC2! 
+  Packs are unzipped into different locations, depending on if
+  you install them for "Combat Evolved" or "Custom Edition"
+  (of course, install the packs for both):
+
+  Halo Comabt Evolved: "C:\Users\Your_Username\Documents\My Games\Halo\hac\packs"
+  Halo Custom Edition: "C:\Users\Your_Username\Documents\My Games\Halo CE\hac\packs"
+
+  If these folders do not exist, create them! When you have
+  unzipped "packs.zip", you should have several numbered
+  ZIP-files residing in the "hac/packs"-folders.
+
+  In game if you want to load an optic pack, just type in the 
+  console "optic load (pack name)".
+
+  For more information and guidance with HAC2, go here:
+  http://halosources.blogspot.com/2015/05/halo-anticheat-2-hac-ultimate-guide.html
+
+  Note: Wineskin on macOS wisely re-routes (per UNIX soft-links)
+        The windows user directory to the macOS user directory;
+        So at the end, these files are actually stored in your 
+        default macOS user file structure stored!
+
+
+
+---
+20230815/MasterMike
+
+

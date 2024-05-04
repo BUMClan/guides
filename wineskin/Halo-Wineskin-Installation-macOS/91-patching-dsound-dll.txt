@@ -1,0 +1,37 @@
+
+
+Environmental Sounds
+==============================
+
+
+The 3 files seen in "91-patching-dsound-dll.png" go directly into the following directories:
+
+- "MyCoolWrapper.app/Contents/SharedSupport/prefix/drive_c
+   /Program Files (x86)/Microsoft Games/Halo Custom Edition"
+
+and
+
+- "MyCoolWrapper.app/Contents/SharedSupport/prefix/drive_c/
+   Program Files (x86)/Microsoft Games/Halo"
+
+
+Note: Don't copy the folder "dsoal-latest" if it exists, only the files!
+
+
+Finally:
+
+- Make changes to Windows Configuration in
+
+  Wineskin.app 
+    --> Advanced 
+    --> Tools (Wine Tools Section) 
+    --> Config Utility (aka winecfg / Windows configuration)
+
+See "91-wineskin-cfg-utility-1.png" and "91-wineskin-cfg-utility-2.png".
+
+
+
+---
+20230815/MasterMike
+
+

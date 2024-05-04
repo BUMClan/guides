@@ -1,0 +1,121 @@
+
+
+1. Some Information About Wine
+====================================
+
+You don't have to install anything here, because Wineskin will
+takes care of the base software "Wine". But to get a bit more
+background information on Wine you can look here if you want:
+
+- See: https://github.com/Gcenx/wine-on-mac
+
+
+
+2. Necessary Software
+====================================
+
+
+Quartz X11
+-----------
+- Download & install package:
+  https://www.xquartz.org
+
+
+Wineskin
+-----------
+
+- Read here to get detailed information (optional):
+  https://github.com/Gcenx/WineskinServer
+
+- Installation:
+
+  A)  Installation with home-brew package manager,
+      in terminal (get it at: https://brew.sh):
+         brew install --cask --no-quarantine gcenx/wine/wineskin
+
+  B)  Manual Installation (e.g. if you don't use/have home-brew):
+      1. Download: https://github.com/Gcenx/WineskinServer/releases/download/V1.8.4.2/Wineskin.Winery.txz
+      2. After downloading remove the flag quarantine before extraction,
+         don't extract using the "Keka"-Unpacker, execute in terminal:
+
+           /usr/bin/xattr -drs com.apple.quarantine Wineskin.Winery.txz
+
+  Important: After installation, update to the 
+  latest version in the GUI after starting the
+  "Wineskin Winery.app".
+
+
+
+3. Pre-requisites
+====================================
+
+Wineskin needs to be able to execute Quartz X11 on-the-fly. However, 
+Apple's System Integrity Protection (SIP) is not allowing this.
+Therefore, you have to disable it. Disabling it could be a problem 
+for "noob" Mac users solely. To do so:
+
+- See: https://www.r-studio.com/data_recovery_macintosh/System_Integrity_Protection.shtml
+
+If you don't want to disable SIP, and you would like to give Quartz X11 
+specifically the permissions it needs, you could follow these
+steps (a bit more complicated to achieve):
+
+- See chapter "Full disk access needed":
+  https://github.molgen.mpg.de/pages/bs/macOSnotes/mac/mac_x11_apps.html
+
+
+
+4. Working with Wineskin
+====================================
+
+You have to open the wineskin wrapper you will create in the next steps
+(See "02-winery-create-wrapper.png"); you certainly will name it for
+example "Halo.app", but in this installation we assume it is called
+"MyCoolWrapper.app". Open it later on macOS by right-clicking and chose 
+"Show Package Contents". You should see this:
+
+  Folder : /Contents
+  Link   : /drive_c
+  Link   : /Logs
+  App    : Wineskin.app
+
+You'll use the "Wineskin.app" for different tasks to perform, always
+use the "Advanced" option in the app. E.g. to go the Wineskin 
+configuration utility:
+
+  Wineskin.app 
+    --> Advanced 
+    --> Tools (Wine Tools Section) 
+    --> Config Utility (aka winecfg / Windows configuration).
+
+See: "03-winery-menu-1.png" and "04-winery-menu-2.png".
+
+
+
+5. Important
+====================================
+
+Always use the "Apply" / "Anwenden" button after you changed 
+something in the dialog opened by the Wineskin configuration
+utility in
+
+  Wineskin.app 
+    --> Advanced 
+    --> Tools (Wine Tools Section) 
+    --> Config Utility (aka winecfg / Windows configuration).
+
+If any change you made doesn't seem to apply, despite trying
+everything, try the following (though this should never be the
+case):
+
+  Wineskin.app
+    --> Advanced
+    --> Tools (Wrapper Tools Section)
+    --> Refresh Wrapper
+
+
+
+---
+20230815/MasterMike
+
+

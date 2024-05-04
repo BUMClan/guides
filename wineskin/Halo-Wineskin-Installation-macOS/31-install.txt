@@ -1,0 +1,82 @@
+
+
+Software
+===============
+
+Software-Package:
+
+- It is assumed that you have all necessary installation files as stated in the "Steps"
+  below, which are based on the original Halo Custom Edition CD.
+
+
+
+Install
+===============
+
+Notes:
+
+- "MyCoolWrapper.app" will be used as a substitution for the wrapper
+  you have created with Wineskin; it can have any name!
+
+- Never RUN the game, before everything is installed in this list!
+  --> If there is no Exit/Quit-Button, close the installers by clicking the [X]
+      in the right-upper corner after installation is done.
+
+- When you get a dialog with a wineskin warning ("No new executables found!") after 
+  Any setup/patch installation program, you can ignore this !
+
+- Usually if you run setups and installers and they are finished, Wineskin wants you to
+  define a Windows executable (program) that will be executed when you execute the
+  Wineskin-Wrapper. But since we are not finished with installation, just press "OK", no 
+  matter what is defined in the drop-down-box presented. Nothing will happen nor anything
+  will be executed at this time. We define the right executable later (below in "Executables").
+
+Steps:
+
+- Run "Setup.Exe" from "HALO_CE.iso" (from original Halo Custom Edition CD) with "Install Software" function in 
+  "Wineskin.app" within your Wineskin-Wrapper, e.g. it is within "MyCoolWrapper.app"
+  --> You have to open the wineskin wrapper -> on Mac by right-clicking and chose 
+  "Show Package Contents".
+
+- Enter your the Serial-Key when prompted (Format XXXXX-XXXXX-XXXXX-XXXXX-XXXXX).
+
+- Finish Installation and exit WITHOUT starting game!
+
+- Run "01 Halo Combat Evolved PC Game Patch-1.0.10.exe" (WS: "Install Software")
+
+- Run "02 Halo Custom Edition Update-1.0.10.exe" (WS: "Install Software")
+
+- Again enter the same Serial-Key provided when prompted
+
+- Run "03 Halo Custom Edition Patch-1.0.10.exe" (WS: "Install Software")
+
+
+
+Executables
+===============
+
+Wineskin Advanced Settings Executables:
+
+- Wineskin executable (for multiplayer - use this one):
+  "C:\Program Files (x86)\Microsoft Games\Halo\halo.exe" -novideo -use21
+
+  Notes:
+    - "-novideo" removes the annoying intro videos
+    - "-use21" is a shader configuration
+
+- Wineskin executable (for single-player & multi-player):
+  "C:\Program Files (x86)\Microsoft Games\Halo Custom Edition\haloce.exe" -novideo -use21 -console -devmode
+
+  Notes:
+    - "-console" activates the development console
+    - "-devmode" activates the development mode
+
+
+You can use the icon "Titch-Ix-Game-Halo.icns" for your wineskin wrapper.
+
+
+
+---
+20240405/MasterMike
+
+

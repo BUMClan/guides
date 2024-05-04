@@ -1,0 +1,12 @@
+
+The "dsound3x" entry you will add in the next steps
+("53-wineskin-cfg-utility.png" and "54-wineskin-cfg-utility.png")
+cannot be selected from the drop-down-menu, you have to write it 
+by yourself; write the text "dsound3x" and click "Add", then "Apply"!
+
+
+
+---
+20230815/MasterMike
+
+

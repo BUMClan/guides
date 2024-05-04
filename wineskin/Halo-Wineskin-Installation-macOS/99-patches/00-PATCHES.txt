@@ -1,0 +1,34 @@
+
+
+Patches
+===================================================
+
+
+Chimera
+---------------------------------------------------
+Get the newest version from
+https://github.com/SnowyMouse/chimera
+or any other forked derivate that you want to use.
+
+
+Old and with HAC2 compatible Chimera with HAC2
+---------------------------------------------------
+File: chimera+hac2-working-versions.zip
+Chimera-Version: 600
+
+
+Environmental Sounds
+---------------------------------------------------
+File: dsoal-latest.7z
+
+
+BUM N01's Optic Packs for HAC2 only
+---------------------------------------------------
+File: Packz.zip
+
+
+
+---
+20240405/MasterMike
+
+

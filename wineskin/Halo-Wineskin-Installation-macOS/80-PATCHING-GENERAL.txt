@@ -1,0 +1,41 @@
+
+
+Patching / Additional Software
+==============================
+
+
+PATCHING of Halo is done in the windows file structure 
+within the wineskin wrapper (e.g. MyCoolWrapper.app). 
+Always do it for both versions of Halo (Customer Edition & 
+Combat Evolved)
+
+--> You have to open the wineskin wrapper 
+    -> on Mac by right-clicking and chose 
+
+    "Show Package Contents".
+
+    Inside you'll find the windows system file structure.
+    
+    Halo stuff is here:
+
+    - "<base-dir>/MyCoolWrapper.app/Contents/SharedSupport
+       /prefix/drive_c/Program Files (x86)
+       /Microsoft Games/Halo Custom Edition"
+
+    and
+
+    - "<base-dir>/MyCoolWrapper.app/Contents/SharedSupport
+       /prefix/drive_c/Program Files (x86)/Microsoft Games
+       /Halo"
+
+
+NOTE: Whenever you patch (override one or more files), 
+      first backup the old file(s) with a prefix, that 
+      way you know what version it was before patching!
+
+
+
+---
+20230815/MasterMike
+
+
