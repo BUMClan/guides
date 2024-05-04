@@ -20,14 +20,14 @@ https://www.youtube.com/@MasterMikeHalo
 - Note, there might be still some unnecessary steps in these instructions, but this is as close I could reproduce a great and working Halo installation. Ideas for improvements welcomed.
 
 ## Feedback and suggestions for improvement
-- Contact me on discord server "BÛM & GoM friends".
+- Contact me on discord server "ßÙM & GoM friends".
 - Official home of this guide: https://github.com/BUMClan
 
 ## Linux
 Wine also runs on Linux, but you will have to use WineHQ (https://www.winehq.org) instead the  Wineskin Winery App for macOS and you have to install Wine too. There is a guide from Cupid available at the "BÛM & GoM friends" discord server, channel "wineskin".
 
 ## Credits
-- BUM N01: Environmental-Sound- and Chimera-HAC2-Combo-Patch.
+- ßÙM N01: Environmental-Sound- and Chimera-HAC2-Combo-Patch.
 - Jertony: Testing, initial feedback and text improvements.
 
 ---
