@@ -1,5 +1,4 @@
-# HALO Installation Instructions 
-# for any macOS (and more...)
+# HALO Installation Instructions for any macOS (and more...)
 
 These instructions mainly cover installations and 
 additional patches for macOS systems with Wineskin 
