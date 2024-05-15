@@ -113,9 +113,17 @@ case):
     --> Tools (Wrapper Tools Section)
     --> Refresh Wrapper
 
+Furthermore, whenever you add components in Winetricks, e.g.
+DLLs, always click the button "Run" afterwards and wait until
+everything is installed.
+
+In the Wineskin Configuration Utility, you can choose your
+Windows version you would like to use; that could be "Windows XP" or
+even "Windows 10" (or higher). See "12-wineskin-cfg-utility.png".
+
 
 
 ---
-20230815/MasterMike
+20240515/MasterMike
 
 
