@@ -31,5 +31,5 @@ Wine also runs on Linux, but you will have to use WineHQ (https://www.winehq.org
 - Jertony: Testing, initial feedback and text improvements.
 
 ---
-Version: 2.0-OL
+Version: 2.0-OL<br>
 Date: April 5, 2024
